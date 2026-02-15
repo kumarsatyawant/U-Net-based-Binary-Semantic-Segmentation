@@ -22,7 +22,7 @@ Quantitative result:
 |     97.13       |       93.59        |
 
 
-![Results](figures/2_Train_Loss.png)
+![Results](figures/2_Train_Loss.svg)
 Fig. 2. Plot for training loss.
 
 ![Results](figures/3_Val_Pixel_Acc.png)
