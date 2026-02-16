@@ -33,10 +33,13 @@ Fig. 2. Plot for training loss.
 
 Fig. 3. Plot for validation pixel accuracy.
 
-<p align="center">
-  <img src="figures/3_Val_Pixel_Acc.jpg" width="600" alt="Validation pixel accuracy" /><br/>
-  <em>Fig. 3. Plot for validation pixel accuracy.</em>
-</p>
+<figure style="margin:0">
+  <img src="figures/3_Val_Pixel_Acc.jpg"
+       alt="Validation pixel accuracy"
+       style="display:block; width:100%; height:auto;" />
+  <figcaption style="text-align:center;"><em>Fig. 3. Plot for validation pixel accuracy.</em></figcaption>
+</figure>
+
 
 ![Results](figures/4_Val_Dice_Coefficient.jpg)
 
