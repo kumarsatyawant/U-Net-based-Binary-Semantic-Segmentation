@@ -9,9 +9,19 @@ Binary semantic segmentation is a computer vision task that classifies every pix
 
 
 Network:
-------- 
-![Network](figures/1_UNet.png)  
-Fig. 1. The schematic representation of the U-Net design. The Image source is taken from [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28).
+-------
+<figure style="margin:0">
+  <img src="figures/1_UNet.png"
+       alt="Schematic of U-Net architecture"
+       style="display:block; width:100%; height:auto;" />
+  <figcaption style="text-align:center; margin-top:0.5em;">
+    Fig. 1. The schematic representation of the U-Net design. The Image source is taken from
+    <a href="https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28" target="_blank" rel="noopener noreferrer">
+      U-Net: Convolutional Networks for Biomedical Image Segmentation
+    </a>.
+  </figcaption>
+</figure>
+
 
 
 Results:
