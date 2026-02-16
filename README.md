@@ -19,9 +19,9 @@ Results:
 Quantitative result:
 
 
-| Pixel Accuracy  | Diece Coefficient  |
-|-----------------|--------------------| 
-|     97.13       |       93.59        |
+| Pixel Accuracy (%)  | Diece Coefficient (%)  |
+|---------------------|------------------------| 
+|        97.13        |       93.59            |
 
 
 ![Results](figures/2_Train_Loss.jpg)
