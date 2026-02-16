@@ -10,7 +10,8 @@ Binary semantic segmentation is a computer vision task that classifies every pix
 
 Network:
 ------- 
-![Network](figures/1_UNet.png)  
+![Network](figures/1_UNet.png)
+  
 Fig. 1. The schematic representation of the U-Net design. The Image source is taken from [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28).
 
 
@@ -25,17 +26,21 @@ Quantitative result:
 
 
 ![Results](figures/2_Train_Loss.jpg)
+
 Fig. 2. Plot for training loss.
 
 ![Results](figures/3_Val_Pixel_Acc.jpg)
+
 Fig. 3. Plot for validation pixel accuracy.
 
 ![Results](figures/4_Val_Dice_Coefficient.jpg)
+
 Fig. 4. Plot for validation dice coefficient.
 
 
 
 ![Results](figures/5_Val_Pred_Results.png)
+
 Fig. 5. Qualitative sample prediction results on the validation dataset. The first, second & third rows in the figure represents the input images, ground truths & the prediction results respectively. 
 
 
