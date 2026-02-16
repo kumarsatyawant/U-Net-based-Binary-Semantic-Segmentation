@@ -4,6 +4,8 @@ Binary semantic segmentation is a computer vision task that classifies every pix
 
 - Here, we have trained a deep learning based U-Net model for binary semantic segmentation of fish present in an Image. We have treated fish in the Image as the foreground class and the rest as background.
 
+- We have used subset of images from [A Large Scale Fish Dataset](https://www.kaggle.com/datasets/crowww/a-large-scale-fish-dataset) for training and validation purposes.
+
 
 
 Network:
