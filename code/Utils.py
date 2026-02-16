@@ -20,3 +20,13 @@ def load_checkpoint(directory, model, optimizer, filename='Checkpoint.tar.gz'):
         print("=> Checkpoint Loaded")
     else:
         print("Missing Checkpoint File")
+
+def load_test_checkpoint(directory, model, filename='Checkpoint.tar.gz'):
+    model_filename = os.path.join(directory, filename)
+    if os.path.exists(model_filename):
+        print("=> Loading Checkpoint...")
+        checkpoint = torch.load(model_filename)
+        model.load_state_dict(checkpoint['state_dict'])
+        print("=> Checkpoint Loaded")
+    else:
+        print("Missing Checkpoint File")
